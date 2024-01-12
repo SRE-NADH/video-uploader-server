@@ -5,7 +5,7 @@ const app = express();
 const videoRoute = require("./Routes/videoRoute")
 
 require("dotenv").config();
-const port = process.env.PORT || 3000; 
+const port = process.env.PORT; 
 
 
 app.use(express.json()); // is a middleware help to alow and send json data

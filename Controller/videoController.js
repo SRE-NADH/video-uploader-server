@@ -41,7 +41,7 @@ const getVideo = async(req,res)=>{
       let video = await videoModel.findById(id);
       return res.status(200).json(video);
     }
-    catch(error){
+    catch(error){no
         return res.status(500).json(error.message);
     }
 }
